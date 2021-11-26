@@ -10,12 +10,24 @@ Each of the next Q lines contains three space-separated integers l,r,x denoting 
 Output Format
 Output Q lines one for each query containing the answer for the corresponding query. 
 
+
 Constraints
-1≤n,Q≤105 1≤ai≤109 1≤l≤r≤n 1≤x≤109 
+
+1≤n,Q≤105
+1≤ai≤109
+1≤l≤r≤n
+1≤x≤109 
+
 
 Subtasks
-For 10% of the score: 1≤n,Q≤100 For 20% of the score: 1≤x≤100 Remaining 70%: No extra constraints. 
+
+For 10% of the score: 1≤n,Q≤100
+For 20% of the score: 1≤x≤100
+Remaining 70%: No extra constraints.
+
+
 Sample Input 
+
 5 6 
 1 2 3 6 9
 1 5 1
@@ -24,7 +36,10 @@ Sample Input
 1 4 4
 2 5 4
 2 5 1 
+
+
 Sample Output
+
 5
 3
 0
@@ -33,5 +48,6 @@ Sample Output
 4 
 
 Explanation:
+
 For the first query, all the elements of the array are ≥1. Thus, the answer is 5.
 For the second query, the answer will be 3, as the elements 3,6,9 are ≥3
