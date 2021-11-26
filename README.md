@@ -29,23 +29,36 @@ Remaining 70%: No extra constraints.
 Sample Input 
 
 5 6 
+
 1 2 3 6 9
+
 1 5 1
+
 1 5 3
+
 1 5 10
+
 1 4 4
+
 2 5 4
+
 2 5 1 
 
 
 Sample Output
 
 5
+
 3
+
 0
+
 1
+
 2
+
 4 
+
 
 Explanation:
 
